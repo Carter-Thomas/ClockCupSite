@@ -46,23 +46,26 @@ footer {
     width: 100%;
 }
 
+h3 {
+    text-align: center;
+}
+
 .tournament-headers {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   border-bottom: 1px solid #ccc;
-  
-  h3 {
+}
+
+.tournament-headers h3 {
     width: 25%;
     text-align:center;
     font-weight: 400;
     border-right: 1px dashed #ccc;
     margin: 0;
     padding:1rem;
-  }
 }
-
 .tournament-brackets {
   display: flex;
   flex-direction: row; 
