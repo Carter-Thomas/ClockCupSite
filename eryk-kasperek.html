@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eryk Kasperek</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-
         .times-dropdown-button,
         .dropdown-button {
             display: inline-block;
@@ -26,7 +26,7 @@
             overflow-y: auto;
             max-height: 300px;
         }
-
+        
         #times-container,
         #match-container {
             display: none;
@@ -34,129 +34,130 @@
         }
     </style>
 </head>
+
 <body>
-<div class="competitor-content">
-    <header>
-        <h1>Clock Cup Competitor Page</h1>
-    </header>
+    <div class="competitor-content">
+        <header>
+            <h1>Clock Cup Competitor Page</h1>
+        </header>
 
-    <h1>Eryk Kasperek</h1>
+        <h1>Eryk Kasperek</h1>
 
-    <img src="assets/eryk-kasperek-pfp.jpg">
+        <img src="assets/eryk-kasperek-pfp.jpg">
 
-    <table class="wca-table">
-        <thead>
-            <tr>
-                <th>Region</th>
-                <th>WCA ID</th>
-                <th>Matches Competed In</th>
-                <th>Completed Solves</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <th>Poland</th>
-            <th>2021KASP01</th>
-            <th>1</th>
-            <th>13</th>
-            </tr>
-        </tbody>
-    </table>
+        <table class="wca-table">
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>WCA ID</th>
+                    <th>Matches Competed In</th>
+                    <th>Completed Solves</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Poland</th>
+                    <th>2021KASP01</th>
+                    <th>1</th>
+                    <th>13</th>
+                </tr>
+            </tbody>
+        </table>
 
-    <h2>Clock Cup Personal Bests</h2>
+        <h2>Clock Cup Personal Bests</h2>
 
-    <table class="competitor-page-rankings-table">
-        <thead>
-            <tr>
-                <th>Match ID</th>
-                <th>WR</th>
-                <th>Single</th>
-                <th>Average</th>
-                <th>WR</th>
-                <th>Match ID</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>Qualification</th>
-                <th>8</th>
-                <th>3.24</th>
-                <th>3.81</th>
-                <th>6</th>
-                <th>Qualification</th>
-            </tr>
-        </tbody>
-    </table>
+        <table class="competitor-page-rankings-table">
+            <thead>
+                <tr>
+                    <th>Match ID</th>
+                    <th>WR</th>
+                    <th>Single</th>
+                    <th>Average</th>
+                    <th>WR</th>
+                    <th>Match ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Qualification</th>
+                    <th>9</th>
+                    <th>3.24</th>
+                    <th>3.81</th>
+                    <th>6</th>
+                    <th>Qualification</th>
+                </tr>
+            </tbody>
+        </table>
 
-    <h3>Qualification Results</h3>
+        <h3>Qualification Results</h3>
 
-    <table class="mini-qualification-table">
-        <thead>
-            <tr>
-                <th>Mo5</th>
-                <th>Seed</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>4.27</td>
-                <td>7</td>
-            </tr>
-        </tbody>
-    </table>
+        <table class="mini-qualification-table">
+            <thead>
+                <tr>
+                    <th>Mo5</th>
+                    <th>Seed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>4.27</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <div class="qualification-dropdown">
-        <button class="dropdown-button" onclick="toggleQualificationTable()">Show / Hide Qualification Times</button>
-    </div>
-    <div id="times-container">
-    <table class="qualification-table">
-        <thead>
-            <tr>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-                <th>6</th>
-                <th>7</th>
-                <th>8</th>
-                <th>9</th>
-                <th>10</th>
-                <th>11</th>
-                <th>12</th>
-                <th>13</th>
-                <th>14</th>
-                <th>15</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>3.62</th>
-<th>4.12</th>
-<th>3.99</th>
-<th>4.34</th>
-<th>3.24</th>
-<th>3.78</th>
-<th>3.91</th>
-<th>4.84</th>
-<th>3.76</th>
-<th>DNF</th>
-<th>5.61</th>
-<th>4.37</th>
-<th>4.68</th>
-<th>4.53</th>
-<th>DNF</th>
+        <div class="qualification-dropdown">
+            <button class="dropdown-button" onclick="toggleQualificationTable()">Show / Hide Qualification Times</button>
+        </div>
+        <div id="times-container">
+            <table class="qualification-table">
+                <thead>
+                    <tr>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>3.62</th>
+                        <th>4.12</th>
+                        <th>3.99</th>
+                        <th>4.34</th>
+                        <th>3.24</th>
+                        <th>3.78</th>
+                        <th>3.91</th>
+                        <th>4.84</th>
+                        <th>3.76</th>
+                        <th>DNF</th>
+                        <th>5.61</th>
+                        <th>4.37</th>
+                        <th>4.68</th>
+                        <th>4.53</th>
+                        <th>DNF</th>
 
 
-            </tr>
-        </tbody>
-    </table>
-</div>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <h3>Match Results:</h3>
-    <h3>Empty until matches begin!</h3>
+        <h3>Match Results:</h3>
+        <h3>Empty until matches begin!</h3>
 
-    <!-- <table class="mini-match-table">
+        <!-- <table class="mini-match-table">
         <thead>
             <tr>
                 <th>W/L</th>
@@ -173,8 +174,8 @@
         </tbody>
     </table> -->
 
-    <div class="match-times-dropdown">
-        <button class="times-dropdown-button" onclick="toggleMatchResults()">Show / Hide Match Times</buton>
+        <div class="match-times-dropdown">
+            <button class="times-dropdown-button" onclick="toggleMatchResults()">Show / Hide Match Times</buton>
     </div>
     <div id="match-container">
     <!-- <table class="match-table-row">
